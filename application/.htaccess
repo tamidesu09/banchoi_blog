@@ -13,4 +13,4 @@
 </IfModule>
 
 # Prevent directory listing
-Options -Indexes
+Options -Indexes    

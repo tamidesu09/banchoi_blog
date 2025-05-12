@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Register | Banchoi</title>
+    <title>Login | Banchoi</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.2.0/dist/css/tabler.min.css" />
 
     <!-- FONTS -->
@@ -161,7 +161,7 @@
                 </div>
 
                 <div class="d-grid gap-2 mt-4">
-                    <a href="#" class="btn btn-dark btn-block">Sign In</a>
+                    <a href="<?= site_url('dashboard') ?>" class="btn btn-dark">Sign In</a>
                 </div>
                 <div class="already-message mt-3">
                     <h3 class="text-black">Don't have an account yet? <a href="<?php echo base_url('auth/register'); ?>"
@@ -170,6 +170,8 @@
             </div>
         </div>
     </div>
+
+   
 
     <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.2.0/dist/js/tabler.min.js"></script>
 </body>
